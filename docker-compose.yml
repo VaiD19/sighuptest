@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  web:
+    image: httpd
+    build: .
+    container_name: httpd_sighup
+    restart: always
+    ports:
+      - "8080:80"
+

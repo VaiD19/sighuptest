@@ -78,6 +78,6 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <co
 ```
 This command will output the IP address of the specified container.
 
-Now you should be able to access the sighuptest web service through the specified IP on localhost.
+Now you should be able to access the sighuptest web service through the specified IP on your browser.
 
 It ain't much, but is honest work!

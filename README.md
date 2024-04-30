@@ -51,30 +51,12 @@ Navigate into the newly created folder using the cd command
 
 Now, you can use the 
 ```bash
-docker-compose build
+sudo docker-compose build
 ```
 then the
 ```bash
-docker-compèose up -d
+sudo docker-compèose up -d
 ```
-commands to start the container
-
-bash
-Copy code
-docker-compose up -d
-The -d flag runs the services in detached mode, meaning they run in the background.
-
-5. Verify Container is Running
-To verify that the Docker Compose container is running successfully, you can use the docker ps command to list the running containers:
-
-bash
-Copy code
-docker ps
-You should see the container listed among the running containers.
-
-Conclusion
-Congratulations! You have successfully run a Docker Compose container from a new folder. You can now continue to develop and manage your multi-container Docker application using Docker Compose.
-
-
+commands to build the image and start the container.
 
 It ain't much, but is honest work

@@ -34,8 +34,8 @@ docker-compose --version
 
 If everything went wright, this command should output the installed version of Docker Compose.
 
-Congratulations! You have successfully installed Docker Compose on your system.
-
 ---
+
+STEP 2 - Run the sighuptest sample httpd container
 
 It ain't much, but is honest work

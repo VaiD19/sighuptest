@@ -59,9 +59,9 @@ sudo docker-compose up -d
 ```
 command in order to build the image and start up the container.
 
-STEP 3 - test the webapp
+STEP 3 - access the webapp
 
-Finding Container IP Address with Docker Compose
+Finding Container IP Address with Docker Compose:
 
 1. List Running Containers
 First, list all the containers running on your system using the docker ps command:
@@ -78,5 +78,6 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <co
 ```
 This command will output the IP address of the specified container.
 
+Now you should be able to access the sighuptest web service through the specified IP on localhost.
 
-It ain't much, but is honest work
+It ain't much, but is honest work!

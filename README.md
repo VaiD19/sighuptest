@@ -55,8 +55,8 @@ sudo docker-compose build
 ```
 then the
 ```bash
-sudo docker-compèose up -d
+sudo docker-compose up -d
 ```
-commands to build the image and start the container.
+commands in order to build the image and start up the container.
 
 It ain't much, but is honest work

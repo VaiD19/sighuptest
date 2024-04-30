@@ -57,6 +57,26 @@ then the
 ```bash
 sudo docker-compose up -d
 ```
-commands in order to build the image and start up the container.
+command in order to build the image and start up the container.
+
+STEP 3 - test the webapp
+
+Finding Container IP Address with Docker Compose
+
+1. List Running Containers
+First, list all the containers running on your system using the docker ps command:
+
+```bash
+docker ps
+```
+This command will display a list of all running containers along with their container IDs, names, and other details.
+
+Identify the container in which the httpd service is running an once you have identified the container, use the docker inspect command to get detailed information about the container, including its IP address. Replace <container_name_or_id> with the name or ID of your container:
+
+```bash
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name_or_id>
+```
+This command will output the IP address of the specified container.
+
 
 It ain't much, but is honest work

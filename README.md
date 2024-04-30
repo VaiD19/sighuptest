@@ -1,6 +1,6 @@
 # sighuptest
 
-What follows is a simple guide on how to run a basic httpd container with docker compose:
+What follows is a simple guide on how to run this basic httpd container with docker compose:
 
 STEP 1 - Install Docker Compose
 
